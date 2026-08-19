@@ -1,0 +1,22 @@
+# DTransformer Baseline Configuration
+model:
+  type: "dtransformer"
+  num_questions: 2000
+  num_concepts: 600
+  d_model: 128
+  n_heads: 4
+  dropout: 0.1
+
+data:
+  dataset_path: "data/processed/processed_eedi.csv"
+  max_seq_len: 100
+  test_ratio: 0.1
+  seed: 42
+
+training:
+  output_dir: "checkpoints/baselines/dtransformer"
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  num_epochs: 50
+  batch_size: 64
+  early_stopping_patience: 8

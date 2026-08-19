@@ -1,0 +1,22 @@
+# DKT Baseline Configuration
+model:
+  type: "dkt"
+  num_questions: 2000
+  embed_dim: 128
+  hidden_dim: 128
+  num_layers: 1
+  dropout: 0.2
+
+data:
+  dataset_path: "data/processed/processed_eedi.csv"
+  max_seq_len: 100
+  test_ratio: 0.1
+  seed: 42
+
+training:
+  output_dir: "checkpoints/baselines/dkt"
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  num_epochs: 50
+  batch_size: 64
+  early_stopping_patience: 8

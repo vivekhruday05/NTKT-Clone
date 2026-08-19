@@ -1,0 +1,41 @@
+QuestionId,QuestionText,Options,CorrectAnswer,ConstructName
+1,What is 2/7 + 18/7 simplified to its lowest terms?,"{""A"": ""4/5"", ""B"": ""3/3"", ""C"": ""20/7"", ""D"": ""9/3""}",C,Fractions
+2,What is 5/3 + 26/3 simplified to its lowest terms?,"{""A"": ""31/3"", ""B"": ""9/5"", ""C"": ""9/8"", ""D"": ""10/2""}",A,Fractions
+3,Asha's office is on level 4. Her car is parked in the basement on level -7. How many floors does Asha need to go down to get from the office to her car?,"{""A"": ""16"", ""B"": ""9"", ""C"": ""11"", ""D"": ""10""}",C,Negative Numbers
+4,A bag contains 3 red marbles and 4 blue marbles. What is the probability of picking a red marble?,"{""A"": ""9"", ""B"": ""12"", ""C"": ""15"", ""D"": ""10""}",D,Probability
+5,What is 8/2 + 27/2 simplified to its lowest terms?,"{""A"": ""10/7"", ""B"": ""10/5"", ""C"": ""5/12"", ""D"": ""35/2""}",D,Fractions
+6,"In a triangle, angle A is 3 degrees and angle B is 8 degrees. What is angle C?","{""A"": ""169"", ""B"": ""166"", ""C"": ""174"", ""D"": ""170""}",A,Geometry & Angles
+7,Solve for x: 7x + 4 = 16.,"{""A"": ""2/11"", ""B"": ""5/12"", ""C"": ""12/7"", ""D"": ""3/10""}",C,Linear Equations
+8,A bag contains 6 red marbles and 7 blue marbles. What is the probability of picking a red marble?,"{""A"": ""8"", ""B"": ""9"", ""C"": ""13"", ""D"": ""10""}",D,Probability
+9,"A recipe uses flour and sugar in the ratio 8:4. If you use 12 cups of flour, how many cups of sugar are needed?","{""A"": ""4"", ""B"": ""8"", ""C"": ""6"", ""D"": ""9""}",C,Ratios
+10,A bag contains 9 red marbles and 3 blue marbles. What is the probability of picking a red marble?,"{""A"": ""10"", ""B"": ""12"", ""C"": ""13"", ""D"": ""8""}",A,Probability
+11,A bag contains 7 red marbles and 3 blue marbles. What is the probability of picking a red marble?,"{""A"": ""12"", ""B"": ""7"", ""C"": ""11"", ""D"": ""10""}",D,Probability
+12,Solve for x: 8x + 6 = 12.,"{""A"": ""10/9"", ""B"": ""7/8"", ""C"": ""9/6"", ""D"": ""6/8""}",D,Linear Equations
+13,"In a triangle, angle A is 7 degrees and angle B is 2 degrees. What is angle C?","{""A"": ""172"", ""B"": ""171"", ""C"": ""168"", ""D"": ""169""}",B,Geometry & Angles
+14,What is 6/8 + 30/8 simplified to its lowest terms?,"{""A"": ""4/4"", ""B"": ""6/4"", ""C"": ""9/11"", ""D"": ""36/8""}",D,Fractions
+15,What is the value of 2^2?,"{""A"": ""2"", ""B"": ""3"", ""C"": ""9"", ""D"": ""4""}",D,Exponents & Powers
+16,What is 9/8 + 12/8 simplified to its lowest terms?,"{""A"": ""21/8"", ""B"": ""3/12"", ""C"": ""9/4"", ""D"": ""8/10""}",A,Fractions
+17,What is 5% of 7?,"{""A"": ""0"", ""B"": ""1"", ""C"": ""3"", ""D"": ""-1""}",A,Percentages
+18,What is 5/3 + 12/3 simplified to its lowest terms?,"{""A"": ""10/10"", ""B"": ""6/2"", ""C"": ""17/3"", ""D"": ""4/11""}",C,Fractions
+19,Asha's office is on level 5. Her car is parked in the basement on level -2. How many floors does Asha need to go down to get from the office to her car?,"{""A"": ""7"", ""B"": ""4"", ""C"": ""6"", ""D"": ""12""}",A,Negative Numbers
+20,What is 4% of 7?,"{""A"": ""2"", ""B"": ""0"", ""C"": ""-2"", ""D"": ""1""}",B,Percentages
+21,What is 3/7 + 23/7 simplified to its lowest terms?,"{""A"": ""7/9"", ""B"": ""1/12"", ""C"": ""6/8"", ""D"": ""26/7""}",D,Fractions
+22,"A recipe uses flour and sugar in the ratio 3:3. If you use 16 cups of flour, how many cups of sugar are needed?","{""A"": ""17"", ""B"": ""16"", ""C"": ""14"", ""D"": ""18""}",B,Ratios
+23,"In a triangle, angle A is 9 degrees and angle B is 3 degrees. What is angle C?","{""A"": ""173"", ""B"": ""170"", ""C"": ""169"", ""D"": ""168""}",D,Geometry & Angles
+24,What is 5/3 + 23/3 simplified to its lowest terms?,"{""A"": ""1/4"", ""B"": ""8/9"", ""C"": ""28/3"", ""D"": ""4/8""}",C,Fractions
+25,"In a triangle, angle A is 9 degrees and angle B is 4 degrees. What is angle C?","{""A"": ""172"", ""B"": ""170"", ""C"": ""167"", ""D"": ""169""}",C,Geometry & Angles
+26,"In a triangle, angle A is 5 degrees and angle B is 2 degrees. What is angle C?","{""A"": ""175"", ""B"": ""176"", ""C"": ""173"", ""D"": ""170""}",C,Geometry & Angles
+27,What is the value of 4^2?,"{""A"": ""14"", ""B"": ""13"", ""C"": ""21"", ""D"": ""16""}",D,Exponents & Powers
+28,What is 8% of 2?,"{""A"": ""-3"", ""B"": ""2"", ""C"": ""-2"", ""D"": ""0""}",D,Percentages
+29,"In a triangle, angle A is 5 degrees and angle B is 7 degrees. What is angle C?","{""A"": ""168"", ""B"": ""169"", ""C"": ""166"", ""D"": ""167""}",A,Geometry & Angles
+30,What is the value of 7^8?,"{""A"": ""5764802"", ""B"": ""5764803"", ""C"": ""5764798"", ""D"": ""5764801""}",D,Exponents & Powers
+31,"In a triangle, angle A is 4 degrees and angle B is 4 degrees. What is angle C?","{""A"": ""173"", ""B"": ""172"", ""C"": ""171"", ""D"": ""170""}",B,Geometry & Angles
+32,"In a triangle, angle A is 3 degrees and angle B is 3 degrees. What is angle C?","{""A"": ""174"", ""B"": ""176"", ""C"": ""171"", ""D"": ""177""}",A,Geometry & Angles
+33,What is 7% of 3?,"{""A"": ""-1"", ""B"": ""0"", ""C"": ""2"", ""D"": ""5""}",B,Percentages
+34,What is 8/8 + 18/8 simplified to its lowest terms?,"{""A"": ""26/8"", ""B"": ""1/2"", ""C"": ""6/4"", ""D"": ""5/4""}",A,Fractions
+35,Asha's office is on level 3. Her car is parked in the basement on level -2. How many floors does Asha need to go down to get from the office to her car?,"{""A"": ""2"", ""B"": ""5"", ""C"": ""7"", ""D"": ""10""}",B,Negative Numbers
+36,A bag contains 4 red marbles and 2 blue marbles. What is the probability of picking a red marble?,"{""A"": ""15"", ""B"": ""9"", ""C"": ""10"", ""D"": ""7""}",C,Probability
+37,What is 7/8 + 27/8 simplified to its lowest terms?,"{""A"": ""3/4"", ""B"": ""7/11"", ""C"": ""34/8"", ""D"": ""3/5""}",C,Fractions
+38,"A recipe uses flour and sugar in the ratio 8:8. If you use 17 cups of flour, how many cups of sugar are needed?","{""A"": ""15"", ""B"": ""22"", ""C"": ""16"", ""D"": ""17""}",D,Ratios
+39,What is the value of 5^3?,"{""A"": ""124"", ""B"": ""130"", ""C"": ""125"", ""D"": ""123""}",C,Exponents & Powers
+40,A bag contains 7 red marbles and 4 blue marbles. What is the probability of picking a red marble?,"{""A"": ""10"", ""B"": ""15"", ""C"": ""13"", ""D"": ""9""}",A,Probability

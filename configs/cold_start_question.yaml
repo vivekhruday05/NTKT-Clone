@@ -1,0 +1,45 @@
+# RQ3 Question Cold Start Configuration (10 unseen questions withheld)
+model:
+  name_or_path: "meta-llama/Llama-3.2-3B-Instruct"
+  torch_dtype: "bfloat16"
+  load_in_4bit: true
+  load_in_8bit: false
+  use_peft: true
+
+lora:
+  rank: 16
+  alpha: 16.0
+  dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+data:
+  dataset_path: "data/processed/processed_eedi.csv"
+  ablation_mode: "full_text"
+  cold_start_question_count: 10 # Withhold 10 unseen questions from training
+  max_length: 4096
+  max_history_len: 50
+  test_ratio: 0.1
+  seed: 42
+
+training:
+  output_dir: "checkpoints/cold_start_question"
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 4
+  max_steps: 20000
+  warmup_steps: 50
+  eval_steps: 250
+  early_stopping_patience: 10
+  early_stopping_delta: 0.001
+  max_grad_norm: 1.0
+  use_8bit_adam: true
+  fp16: false
+  bf16: true

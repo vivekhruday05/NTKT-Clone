@@ -1,0 +1,39 @@
+# Fast CPU Smoke Test Configuration for Local Verification
+model:
+  name_or_path: "gpt2"
+  torch_dtype: "float32"
+  load_in_4bit: false
+  load_in_8bit: false
+  use_peft: false # Uses native LoRA on CPU
+
+lora:
+  rank: 4
+  alpha: 4.0
+  dropout: 0.0
+  target_modules:
+    - "c_attn"
+    - "c_proj"
+
+data:
+  dataset_path: "data/synthetic/train_interactions.csv"
+  ablation_mode: "full_text"
+  max_length: 512
+  max_history_len: 5
+  test_ratio: 0.2
+  seed: 42
+
+training:
+  output_dir: "checkpoints/cpu_smoke_test"
+  learning_rate: 1.0e-3
+  weight_decay: 0.01
+  per_device_batch_size: 2
+  gradient_accumulation_steps: 1
+  max_steps: 10
+  warmup_steps: 2
+  eval_steps: 5
+  early_stopping_patience: 5
+  early_stopping_delta: 0.001
+  max_grad_norm: 1.0
+  use_8bit_adam: false
+  fp16: false
+  bf16: false
